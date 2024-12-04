@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="main-nav">
+            <div class="container nav-container">
+                <div class="nav-right">
+                    <button class="menu-toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="nav-menu">
+                        <li><a href="#">عن الرمز</a></li>
+                        <li><a href="#">مجتمعاتنا</a></li>
+                        <li><a href="#">مشاريعنا</a></li>
+                        <li><a href="#">آخر الأخبار</a></li>
+                        <li><a href="#">تواصل معنا</a></li>
+                    </ul>
+                </div>
+                <div class="nav-left">
+                    <div class="language-switch">
+                        <a href="#" class="active">EN</a>
+                    </div>
+                    <div class="logo">
+                        <a href="/">
+                            <img src="https://alramzre.com/assets/media/logo-white.svg" alt="Alramz Logo" class="logo-img">
+                        </a>
+                    </div>
+                    <button class="theme-toggle" aria-label="تبديل الوضع الليلي">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="intro-section">
+        <div class="intro-content">
+            <div class="tagline">رسالة في العمران وحياة للإنسان</div>
+            <h1 class="main-title">
+                نبني المجتمعات بأسلوبٍ
+                <br>
+                <span class="emphasized">حديث ومتكامـــــــل</span>
+            </h1>
+            <div class="cta-text">اكتشف أبرز مجتمعات الرمز</div>
+        </div>
+        <div class="intro-media">
+            <video autoplay muted loop playsinline>
+                <source src="../homeIntro.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <main>
+        
+
+        <div class="gallery-container">
+            <div class="row row-top" style="display: none;">
+                
+            </div>
+            <div class="row row-bottom">
+                <div class="image-wrapper small">
+                    <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d" alt="Villa 7">
+                </div>
+                <div class="image-wrapper large">
+                    <img src="https://images.unsplash.com/photo-1600573472592-401b489a3cdc" alt="Villa 8">
+                </div>
+                <div class="image-wrapper small">
+                    <img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde" alt="Villa 9">
+                </div>
+                <div class="image-wrapper large">
+                    <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3" alt="Villa 10">
+                </div>
+                <div class="image-wrapper small">
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Villa 11">
+                </div>
+                <div class="image-wrapper large">
+                    <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9" alt="Villa 12">
+                </div>
+                <!-- كرر نفس الصور للتأثير المستمر -->
+                <div class="image-wrapper small">
+                    <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d" alt="Villa 7">
+                </div>
+                <div class="image-wrapper large">
+                    <img src="https://images.unsplash.com/photo-1600573472592-401b489a3cdc" alt="Villa 8">
+                </div>
+                <div class="image-wrapper small">
+                    <img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde" alt="Villa 9">
+                </div>
+                <div class="image-wrapper large">
+                    <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3" alt="Villa 10">
+                </div>
+                <div class="image-wrapper small">
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Villa 11">
+                </div>
+                <div class="image-wrapper large">
+                    <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9" alt="Villa 12">
+                </div>
+            </div>
+        </div>
+
+        <section class="projects-section">
+            <div class="swiper projects-swiper">
+                <div class="swiper-wrapper">
+                    <!-- Project 1 -->
+                    <div class="swiper-slide">
+                        <div class="project-item">
+                            <div class="project-media">
+                                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="رافد - مجمع سكني">
+                            </div>
+                            <div class="project-details">
+                                <div class="project-header">
+                                    <div class="slide-count">
+                                        <span class="current">01</span>
+                                        <span class="separator">/</span>
+                                        <span class="total">10</span>
+                                    </div>
+                                    <div class="project-categories">
+                                        <span class="category">شقق سكنية</span>
+                                        <span class="category">حي العقيق</span>
+                                    </div>
+                                    <h2 class="project-title">رافد - مجمع سكني</h2>
+                                </div>
+                                <a href="#" class="discover-btn">اكتشف المشروع ◆</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="swiper-slide">
+                        <div class="project-item">
+                            <div class="project-media">
+                                <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c" alt="تل الرمال 2">
+                            </div>
+                            <div class="project-details">
+                                <div class="project-header">
+                                    <div class="slide-count">
+                                        <span class="current">02</span>
+                                        <span class="separator">/</span>
+                                        <span class="total">10</span>
+                                    </div>
+                                    <div class="project-categories">
+                                        <span class="category">شقق سكنية</span>
+                                        <span class="category">حي العقيق</span>
+                                    </div>
+                                    <h2 class="project-title">تل الرمال 2</h2>
+                                </div>
+                                <a href="#" class="discover-btn">اكتشف المشروع ◆</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Add more projects similarly -->
+                    <div class="swiper-slide">
+                        <div class="project-item">
+                            <div class="project-media">
+                                <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea" alt="رمز المعالي">
+                            </div>
+                            <div class="project-details">
+                                <div class="project-header">
+                                    <div class="slide-count">
+                                        <span class="current">03</span>
+                                        <span class="separator">/</span>
+                                        <span class="total">10</span>
+                                    </div>
+                                    <div class="project-categories">
+                                        <span class="category">شقق سكنية</span>
+                                        <span class="category">حي العقيق</span>
+                                    </div>
+                                    <h2 class="project-title">رمز المعالي</h2>
+                                </div>
+                                <a href="#" class="discover-btn">اكتشف المشروع ◆</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="project-item">
+                            <div class="project-media">
+                                <img src="https://images.unsplash.com/photo-1600573472591-ee6981cf35b6" alt="رمز 45">
+                            </div>
+                            <div class="project-details">
+                                <div class="project-header">
+                                    <div class="slide-count">
+                                        <span class="current">04</span>
+                                        <span class="separator">/</span>
+                                        <span class="total">10</span>
+                                    </div>
+                                    <div class="project-categories">
+                                        <span class="category">شقق سكنية</span>
+                                        <span class="category">حي العقيق</span>
+                                    </div>
+                                    <h2 class="project-title">رمز 45</h2>
+                                </div>
+                                <a href="#" class="discover-btn">اكتشف المشروع ◆</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="project-item">
+                            <div class="project-media">
+                                <img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde" alt="مشروع 5">
+                            </div>
+                            <div class="project-details">
+                                <div class="project-header">
+                                    <div class="slide-count">
+                                        <span class="current">05</span>
+                                        <span class="separator">/</span>
+                                        <span class="total">10</span>
+                                    </div>
+                                    <div class="project-categories">
+                                        <span class="category">شقق سكنية</span>
+                                        <span class="category">حي العقيق</span>
+                                    </div>
+                                    <h2 class="project-title">مشروع 5</h2>
+                                </div>
+                                <a href="#" class="discover-btn">اكتشف المشروع ◆</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="project-item">
+                            <div class="project-media">
+                                <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d" alt="مشروع 6">
+                            </div>
+                            <div class="project-details">
+                                <div class="project-header">
+                                    <div class="slide-count">
+                                        <span class="current">06</span>
+                                        <span class="separator">/</span>
+                                        <span class="total">10</span>
+                                    </div>
+                                    <div class="project-categories">
+                                        <span class="category">شقق سكنية</span>
+                                        <span class="category">حي العقيق</span>
+                                    </div>
+                                    <h2 class="project-title">مشروع 6</h2>
+                                </div>
+                                <a href="#" class="discover-btn">اكتشف المشروع ◆</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="project-item">
+                            <div class="project-media">
+                                <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3" alt="مشروع 7">
+                            </div>
+                            <div class="project-details">
+                                <div class="project-header">
+                                    <div class="slide-count">
+                                        <span class="current">07</span>
+                                        <span class="separator">/</span>
+                                        <span class="total">10</span>
+                                    </div>
+                                    <div class="project-categories">
+                                        <span class="category">شقق سكنية</span>
+                                        <span class="category">حي العقيق</span>
+                                    </div>
+                                    <h2 class="project-title">مشروع 7</h2>
+                                </div>
+                                <a href="#" class="discover-btn">اكتشف المشروع ◆</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="project-item">
+                            <div class="project-media">
+                                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="مشروع 8">
+                            </div>
+                            <div class="project-details">
+                                <div class="project-header">
+                                    <div class="slide-count">
+                                        <span class="current">08</span>
+                                        <span class="separator">/</span>
+                                        <span class="total">10</span>
+                                    </div>
+                                    <div class="project-categories">
+                                        <span class="category">شقق سكنية</span>
+                                        <span class="category">حي العقيق</span>
+                                    </div>
+                                    <h2 class="project-title">مشروع 8</h2>
+                                </div>
+                                <a href="#" class="discover-btn">اكتشف المشروع ◆</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="project-item">
+                            <div class="project-media">
+                                <img src="https://images.unsplash.com/photo-1600573472591-ee6981cf35b6" alt="مشروع 9">
+                            </div>
+                            <div class="project-details">
+                                <div class="project-header">
+                                    <div class="slide-count">
+                                        <span class="current">09</span>
+                                        <span class="separator">/</span>
+                                        <span class="total">10</span>
+                                    </div>
+                                    <div class="project-categories">
+                                        <span class="category">شقق سكنية</span>
+                                        <span class="category">حي العقيق</span>
+                                    </div>
+                                    <h2 class="project-title">مشروع 9</h2>
+                                </div>
+                                <a href="#" class="discover-btn">اكتشف المشروع ◆</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="project-item">
+                            <div class="project-media">
+                                <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d" alt="مشروع 10">
+                            </div>
+                            <div class="project-details">
+                                <div class="project-header">
+                                    <div class="slide-count">
+                                        <span class="current">10</span>
+                                        <span class="separator">/</span>
+                                        <span class="total">10</span>
+                                    </div>
+                                    <div class="project-categories">
+                                        <span class="category">شقق سكنية</span>
+                                        <span class="category">حي العقيق</span>
+                                    </div>
+                                    <h2 class="project-title">مشروع 10</h2>
+                                </div>
+                                <a href="#" class="discover-btn">اكتشف المشروع ◆</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="script.js"></script>
+    </main>
+</body>
+</html>
